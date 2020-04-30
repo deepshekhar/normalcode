@@ -9,5 +9,6 @@ for line in fname:
 lst=list()
 for key,value in di.items():
     lst.append(key)
+    
 lst.sort()
 print(lst)
